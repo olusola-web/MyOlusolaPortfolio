@@ -4,7 +4,7 @@ import {
   FaFolderOpen,
   FaEnvelopeOpen,
   FaBriefcase,
-  FaGraduationCap,
+  // FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
@@ -71,23 +71,10 @@ export const personalInfo = [
   },
 
   {
-    id: 3,
-    title: 'Age : ',
-    description: '23 Years',
-  },
-
-  {
     id: 4,
     title: 'Nationality : ',
     description: 'Nigerian',
   },
-
-  {
-    id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
-  },
-
   {
     id: 6,
     title: 'Address : ',
@@ -119,85 +106,53 @@ export const personalInfo = [
   },
 ];
 
-// export const stats = [
-//   {
-//     id: 1,
-//     no: '12+',
-//     title: 'Years of <br /> Experience',
-//   },
-
-//   {
-//     id: 2,
-//     no: '97+',
-//     title: 'Completed <br /> Projects',
-//   },
-
-//   {
-//     id: 3,
-//     no: '81+',
-//     title: 'Happy <br /> Customers',
-//   },
-
-//   {
-//     id: 4,
-//     no: '53+',
-//     title: ' Awards <br /> Won',
-//   },
-// ];
-
 export const resume = [
   {
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    title: 'Web Developer <span> PickmeUp Services </span>',
+    desc: 'I contributed to the design and implementation of different APIs for a logistics company using ReactJS, Tailwind CSS and JavaScript. I contributed to designing and implementing API consumption (GET Request) for a staff profile form within the action column of the staff application. The form displays non-editable information such as name, address, status, role in the company, age, and guarantor details, retrieved from the backend for each staff member.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    title: 'Frontend Web Developer <span> Prunedge </span>',
+    desc: 'Managed and updated existing applications while ensuring compatibility with various devices through responsive design. Enhanced website speed and efficiency through image optimization and code restructuring. Improved collaboration and workflow efficiency by leveraging Git for version control and maintaining repositories on GitHub',
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    title: 'Frontend Intern <span> SideHustle Internship </span>',
+    desc: 'Enhanced productivity and effectiveness by acquiring and implementing new skills in daily web development workflows. Converted Figma design mockups into precise, high-quality HTML and CSS code. Worked closely with fellow interns to streamline web development processes.',
   },
 
   {
     id: 4,
     category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    icon: <FaBriefcase />,
+    title: 'Frontend Developer <span> Arteria </span>',
+    desc: 'Collaborated closely with product designer, implementing accurate UI/UX using Bootstrap and replicating Figma design, resulting in visually appealing and user-friendly web experiences.Became proficient in HTML, CSS, and JavaScript, crafting high-caliber code for various projects, such as designing a personal portfolio website and building multiple fully operational front-end web applications. Started my coding journey, developing fundamental programming skills.',
   },
 
   {
     id: 5,
     category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    icon: <FaBriefcase />,
+    title: 'Frontend Developer (Intern) <span> Kodecamp </span>',
+    desc: 'Worked closely with backend teams to seamlessly integrate frontend elements with RESTful APIs, facilitating smooth data transmission and real-time content updates. Acquired expertise in React JS and TypeScript through practical projects and mentorship. Collaborated with senior developers to build a brand-new website from the ground up, employing React and Tailwind CSS.',
   },
 
   {
     id: 6,
     category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    icon: <FaBriefcase />,
+    title: 'Frontend Developer (Intern) <span> GRAZAC Technologies </span>',
+    desc: 'Conducted unit tests, integration tests, and end-to-end tests to identify and fix bugs, ensuring the reliability and stability of frontend code.  Participated in agile development methodologies like Scrum, contributed to sprint planning, daily stand-ups, and sprint reviews to deliver features incrementally and iteratively ',
   },
 ];
 
@@ -214,27 +169,30 @@ export const skills = [
 
   {
     id: 3,
-    title: 'Css/Sass',
-  },
-
-  {
-    id: 4,
     title: 'Git & Github',
   },
 
   {
-    id: 5,
+    id: 4,
     title: 'Firebase',
   },
 
   {
-    id: 6,
-    title: 'Tailwind',
+    id: 5,
+    title: 'Tailwind CSS',
   },
 
   {
-    id: 7,
+    id: 6,  
     title: 'React.Js',
+  },
+  {
+    id: 7,
+    title: 'NextJS',
+  },
+  {
+    id: 8,
+    title: 'Figma',
   },
 ];
 
