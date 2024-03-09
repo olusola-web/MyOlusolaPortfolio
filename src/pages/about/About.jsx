@@ -25,8 +25,9 @@ const About = () => {
                 <FaDownload />
               </span>
             </a>
+            
           </div>
-          <div className="skills grid">
+          <div className="skills">
             <h3 className="section__subtitle">My Skills</h3>
             <Skills />
           </div>
